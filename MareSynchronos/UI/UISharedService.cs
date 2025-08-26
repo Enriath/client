@@ -883,8 +883,8 @@ public partial class UiSharedService : DisposableMediatorSubscriberBase
                 _serverConfigurationManager.AddServer(new ServerStorage()
                 {
                     ServerName = _customServerName,
-                    ServerUri = _customServerUri,
-                    UseOAuth2 = true
+                    UseOAuth2 = false,
+                    ServerUri = (_customServerUri.Contains("://") ? "" : "http://") + _customServerUri,
                 });
                 _customServerName = string.Empty;
                 _customServerUri = string.Empty;
