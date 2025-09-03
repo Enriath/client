@@ -12,8 +12,9 @@ jobs:
   release:
     uses: Enriath/mare.repo/.github/workflows/create_release.yml@master
     with:
-      internal_name: MareSynchronos
-      solution_name: MareSynchronos
+      internal_name: FractalContinuum
+      solution_name: FractalContinuum
+      module_name: MareSynchronos
       build_configuration: Release
       personal_plugin_repo: Enriath/mare.repo
       personal_plugin_repo_branch: master

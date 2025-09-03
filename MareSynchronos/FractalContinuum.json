@@ -1,9 +1,9 @@
 {
-  "Author": "darkarchon",
-  "Name": "Mare Synchronos",
+  "Author": "Enriath",
+  "Name": "Fractal Continuum",
   "Punchline": "Let others see you as you see yourself.",
   "Description": "This plugin will synchronize your Penumbra mods and current Glamourer state with other paired clients automatically.",
-  "InternalName": "mareSynchronos",
+  "InternalName": "FractalContinuum",
   "ApplicableVersion": "any",
   "Tags": [
     "customization"
